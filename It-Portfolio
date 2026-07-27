@@ -1,85 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aijahnae Johnson | IT Portfolio</title>
-<script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Portfolio – Ajahnae J</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-slate-950 text-white">
-<header class="p-6 border-b border-pink-500">
-<div class="max-w-6xl mx-auto flex justify-between">
-<h1 class="text-2xl font-bold">Aijahnae Johnson</h1>
-<nav class="space-x-4">
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#education">Education</a>
-<a href="#certifications">Certifications</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</nav>
-</div>
-</header>
 
-<section class="max-w-6xl mx-auto py-20 text-center">
-<h2 class="text-5xl font-bold mb-4">Aspiring IT Support Specialist</h2>
-<p class="text-slate-300 max-w-3xl mx-auto">I am an aspiring IT professional passionate about troubleshooting, customer support, networking, and systems administration. Through Per Scholas, I have gained hands-on experience with computer hardware, operating systems, networking fundamentals, project planning, and professional communication.</p>
-<div class="mt-8 space-x-4">
-<a class="bg-pink-500 px-6 py-3 rounded-xl" href="#">Download Resume</a>
-<a class="border px-6 py-3 rounded-xl" href="#projects">Projects</a>
-</div>
-</section>
+<body>
 
-<section id="about" class="max-w-6xl mx-auto py-12">
-<h2 class="text-3xl font-bold mb-4">About Me</h2>
-<p>I am currently completing the Per Scholas IT Support program and am seeking an entry-level IT Support, Help Desk, or Desktop Support role. I enjoy solving technical problems, learning new technologies, and helping users succeed.</p>
-</section>
+    <!-- Header -->
+    <header>
+        <h1>Ajahnae J – IT Portfolio</h1>
+        <p>IT Support • Cybersecurity • Web Development</p>
+    </header>
 
-<section id="skills" class="max-w-6xl mx-auto py-12">
-<h2 class="text-3xl font-bold mb-6">Technical Skills</h2>
-<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-<div><h3 class="font-bold">Operating Systems</h3><ul><li>Windows 10/11</li><li>Linux Fundamentals</li></ul></div>
-<div><h3 class="font-bold">Hardware</h3><ul><li>PC Assembly</li><li>Troubleshooting</li></ul></div>
-<div><h3 class="font-bold">Networking</h3><ul><li>TCP/IP</li><li>DNS</li><li>DHCP</li></ul></div>
-<div><h3 class="font-bold">Professional</h3><ul><li>Customer Service</li><li>Project Planning</li></ul></div>
-</div>
-</section>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am an aspiring IT professional with a passion for technology, problem‑solving,
+            and continuous learning. I enjoy working with hardware, software, networking,
+            and building clean, functional websites.
+        </p>
+    </section>
 
-<section id="education" class="max-w-6xl mx-auto py-12">
-<h2 class="text-3xl font-bold">Education</h2>
-<p class="mt-3"><strong>Per Scholas – IT Support Program (2026)</strong></p>
-<ul class="list-disc ml-6 mt-2">
-<li>Computer Hardware</li><li>Networking Fundamentals</li><li>Operating Systems</li><li>Technical Support</li><li>Professional Development</li>
-</ul>
-</section>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Technical Support & Troubleshooting</li>
+            <li>Networking Fundamentals</li>
+            <li>Cybersecurity Basics</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Operating Systems: Windows, Linux</li>
+        </ul>
+    </section>
 
-<section id="certifications" class="max-w-6xl mx-auto py-12">
-<h2 class="text-3xl font-bold">Certifications</h2>
-<ul class="list-disc ml-6 mt-3">
-<li>Google IT Support Professional Certificate (In Progress)</li>
-<li>CompTIA A+ (Preparing)</li>
-<li>CompTIA Network+ (Future Goal)</li>
-<li>Per Scholas IT Support Certificate (Upon Completion)</li>
-</ul>
-</section>
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <strong>Cheltenham High School</strong>  
+                <span>High School Diploma – 2024</span>
+            </li>
+            <li>
+                <strong>Self‑Paced IT Coursework</strong>  
+                <span>Networking • Cybersecurity • Web Development</span>
+            </li>
+        </ul>
+    </section>
 
-<section id="projects" class="max-w-6xl mx-auto py-12">
-<h2 class="text-3xl font-bold mb-6">Projects</h2>
-<div class="grid md:grid-cols-2 gap-6">
-<div class="border p-5 rounded-xl"><h3 class="font-bold">IT Infrastructure Deployment</h3><p>Created deployment plans, milestones, documentation and system configuration.</p></div>
-<div class="border p-5 rounded-xl"><h3 class="font-bold">Help Desk Documentation</h3><p>Produced troubleshooting guides for common IT issues.</p></div>
-<div class="border p-5 rounded-xl"><h3 class="font-bold">Project Planning</h3><p>Developed timelines, task tracking and stakeholder updates.</p></div>
-<div class="border p-5 rounded-xl"><h3 class="font-bold">Hardware Support</h3><p>Configured desktops, peripherals and diagnosed hardware issues.</p></div>
-</div>
-</section>
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li><strong>Google IT Support Professional Certificate</strong></li>
+            <li><strong>CompTIA ITF+</strong> (In Progress)</li>
+            <li><strong>IBM Cybersecurity Fundamentals</strong></li>
+        </ul>
+    </section>
 
-<section id="contact" class="max-w-6xl mx-auto py-12">
-<h2 class="text-3xl font-bold">Contact</h2>
-<p>Email: your@email.com</p>
-<p>LinkedIn: linkedin.com/in/yourprofile</p>
-<p>GitHub: github.com/yourusername</p>
-</section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: ajahnaej@example.com</p>
+        <p>GitHub: <a href="https://github.com/ajahnaej">github.com/ajahnaej</a></p>
+    </section>
 
-<footer class="text-center p-8 border-t border-pink-500">© 2026 Aijahnae Johnson • Aspiring IT Support Professional</footer>
 </body>
 </html>
