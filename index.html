@@ -1,1 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT & Project Management Portfolio | Per Scholas Graduate</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        darkbg: '#0f0a1c',
+                        cardbg: '#181028',
+                        accent: '#f472b6',
+                        purplelight: '#c084fc',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-darkbg text-pink-50 font-sans antialiased selection:bg-accent selection:text-slate-900">
 
+    <!-- Header / Navigation -->
+    <header class="bg-darkbg/90 backdrop-blur-md border-b border-pink-900/40 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-9 h-9 bg-accent/10 border border-accent/30 rounded-xl flex items-center justify-center text-accent font-bold text-sm shadow-sm">IT</div>
+                <span class="text-base font-bold tracking-tight text-white">Professional Portfolio</span>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#about" class="text-pink-200/70 hover:text-accent transition">About</a>
+                <a href="#skills" class="text-pink-200/70 hover:text-accent transition">Core Competencies</a>
+                <a href="#education" class="text-pink-200/70 hover:text-accent transition">Education & Certifications</a>
+                <a href="#projects" class="text-pink-200/70 hover:text-accent transition">Projects</a>
+                <a href="#contact" class="text-pink-200/70 hover:text-accent transition">Contact</a>
+            </nav>
+            <div>
+                <a href="#contact" class="bg-gradient-to-r from-pink-400 to-purple-400 hover:from-pink-500 hover:to-purple-500 text-slate-950 px-4 py-2 rounded-xl font-semibold text-sm transition shadow-md shadow-pink-500/10">Get in Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner / Hero Section -->
+    <section class="relative py-24 lg:py-32 overflow-hidden bg-gradient-to-b from-[#170e2b] to-darkbg">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_70%_70%_at_50%_-20%,rgba(244,114,182,0.12),rgba(255,255,255,0))]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <div class="inline-flex items-center space-x-2 bg-cardbg border border-pink-500/20 px-4 py-1.5 rounded-full text-xs font-semibold text-pink-300 mb-6">
+                <span class="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
+                <span>Per Scholas Graduate • Open to Opportunities</span>
+            </div>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
+                IT Systems & <span class="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-300 to-purple-400">Project Management</span> Specialist
+            </h1>
+            <p class="max-w-2xl mx-auto text-base sm:text-lg text-pink-200/80 mb-10 leading-relaxed font-normal">
+                Combining technical IT expertise with structured project planning and clear professional communication to deliver seamless technology solutions.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#education" class="bg-gradient-to-r from-pink-400 to-purple-400 hover:from-pink-500 hover:to-purple-500 text-slate-950 font-bold px-8 py-3.5 rounded-xl shadow-lg shadow-pink-500/15 transition">View Qualifications</a>
+                <a href="#projects" class="bg-cardbg hover:bg-[#201633] text-pink-100 font-semibold px-8 py-3.5 rounded-xl border border-pink-500/20 transition">Explore Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-[#140d24]/50 border-y border-pink-900/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-xs uppercase tracking-widest text-accent font-bold mb-3">Professional Summary</h2>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white mb-6 leading-snug">Technical knowledge backed by structured planning and executive communication.</h3>
+                    <p class="text-pink-200/80 text-sm sm:text-base mb-4 leading-relaxed">
+                        Through intensive training at Per Scholas, I have developed a strong technical foundation alongside critical soft skills needed in high-performing tech organizations. 
+                    </p>
+                    <p class="text-pink-200/80 text-sm sm:text-base mb-8 leading-relaxed">
+                        I specialize in organizing complex technical initiatives into clear project milestones, managing cross-functional tasks, and serving as an articulate liaison between business stakeholders and technical support teams.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 border-t border-pink-900/40 pt-6">
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-300 mb-1">Per Scholas</div>
+                            <div class="text-xs text-pink-300/70">IT Training Graduate</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-300 mb-1">Dual Focus</div>
+                            <div class="text-xs text-pink-300/70">Tech Systems & Project Planning</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-cardbg p-8 rounded-2xl border border-pink-500/20 shadow-xl relative">
+                    <div class="absolute -top-3 right-6 bg-accent/10 text-pink-300 border border-pink-500/30 px-3 py-1 rounded-md text-xs font-mono">overview.config.json</div>
+                    <pre class="text-xs sm:text-sm font-mono text-pink-100/90 overflow-x-auto leading-relaxed pt-2"><code>{
+  "institution": "Per Scholas",
+  "specializations": [
+    "IT Support & Infrastructure",
+    "Project Management & Lifecycle",
+    "Project Plans & Milestones",
+    "Professional Communications"
+  ],
+  "availability": "Ready for Entry/Junior Roles"
+}</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Grid / Core Competencies -->
+    <section id="skills" class="py-20 bg-darkbg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-accent font-bold mb-3">Curriculum Focus</h2>
+                <h3 class="text-2xl sm:text-3xl font-bold text-white">Core Competencies</h3>
+                <p class="text-pink-200/70 text-sm mt-2">Technical and professional skills developed during my Per Scholas training.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Skill 1 -->
+                <div class="bg-cardbg p-6 rounded-2xl border border-pink-500/15 hover:border-pink-500/35 transition group shadow-md">
+                    <div class="w-10 h-10 bg-accent/10 text-accent rounded-xl flex items-center justify-center font-bold text-lg mb-5 border border-accent/20 group-hover:bg-accent group-hover:text-slate-950 transition">💻</div>
+                    <h4 class="text-lg font-semibold text-white mb-2">IT Systems & Support</h4>
+                    <p class="text-pink-200/70 text-xs leading-relaxed">Hardware diagnostics, OS configuration, system administration basics, and user desktop environment troubleshooting.</p>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="bg-cardbg p-6 rounded-2xl border border-pink-500/15 hover:border-pink-500/35 transition group shadow-md">
+                    <div class="w-10 h-10 bg-accent/10 text-accent rounded-xl flex items-center justify-center font-bold text-lg mb-5 border border-accent/20 group-hover:bg-accent group-hover:text-slate-950 transition">📊</div>
+                    <h4 class="text-lg font-semibold text-white mb-2">Project Management</h4>
+                    <p class="text-pink-200/70 text-xs leading-relaxed">Understanding project lifecycles, tracking key milestones, risk assessment, and aligning deliverables with organizational goals.</p>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="bg-cardbg p-6 rounded-2xl border border-pink-500/15 hover:border-pink-500/35 transition group shadow-md">
+                    <div class="w-10 h-10 bg-accent/10 text-accent rounded-xl flex items-center justify-center font-bold text-lg mb-5 border border-accent/20 group-hover:bg-accent group-hover:text-slate-950 transition">📋</div>
+                    <h4 class="text-lg font-semibold text-white mb-2">Project Planning</h4>
+                    <p class="text-pink-200/70 text-xs leading-relaxed">Structuring execution roadmaps, task breakdown structures, timelines, and resource matrices for predictable delivery.</p>
+                </div>
+
+                <!-- Skill 4 -->
+                <div class="bg-cardbg p-6 rounded-2xl border border-pink-500/15 hover:border-pink-500/35 transition group shadow-md">
+                    <div class="w-10 h-10 bg-accent/10 text-accent rounded-xl flex items-center justify-center font-bold text-lg mb-5 border border-accent/20 group-hover:bg-accent group-hover:text-slate-950 transition">💬</div>
+                    <h4 class="text-lg font-semibold text-white mb-2">Professional Communication</h4>
+                    <p class="text-pink-200/70 text-xs leading-relaxed">Delivering polished presentations, technical documentation, active listening, and concise stakeholder reporting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certifications Section -->
+    <section id="education" class="py-20 bg-[#140d24]/50 border-t border-pink-900/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-accent font-bold mb-3">Academic & Credentials</h2>
+                <h3 class="text-2xl sm:text-3xl font-bold text-white">Education & Certifications</h3>
+                <p class="text-pink-200/70 text-sm mt-2">Formal training, certifications, and academic milestones.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- Education Card -->
+                <div class="bg-cardbg p-8 rounded-2xl border border-pink-500/20 shadow-lg relative">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-10 h-10 rounded-lg bg-pink-500/10 border border-pink-500/30 flex items-center justify-center text-accent font-bold">🎓</div>
+                        <div>
+                            <h4 class="text-xl font-bold text-white">Technical Training</h4>
+                            <p class="text-xs text-pink-300/70">Per Scholas</p>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-4">
+                        <div class="border-l-2 border-accent/40 pl-4 py-1">
+                            <h5 class="text-base font-semibold text-pink-100">IT & Project Management Program</h5>
+                            <p class="text-xs text-pink-300/60 mb-2">Per Scholas • Completed 2026</p>
+                            <p class="text-xs text-pink-200/70 leading-relaxed">Intensive, hands-on training covering system troubleshooting, project planning frameworks, enterprise ticket resolution, and business communication strategies.</p>
+                        </div>
+                        <!-- Additional Degree or High School (Editable) -->
+                        <div class="border-l-2 border-pink-900/40 pl-4 py-1">
+                            <h5 class="text-base font-semibold text-pink-100">[Your High School or University Degree]</h5>
+                            <p class="text-xs text-pink-300/60 mb-2">[Location or School Name] • Graduation Year</p>
+                            <p class="text-xs text-pink-200/70 leading-relaxed">Relevant coursework in technology, communications, or general academics.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications Card -->
+                <div class="bg-cardbg p-8 rounded-2xl border border-pink-500/20 shadow-lg relative">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-10 h-10 rounded-lg bg-pink-500/10 border border-pink-500/30 flex items-center justify-center text-accent font-bold">📜</div>
+                        <div>
+                            <h4 class="text-xl font-bold text-white">Certifications</h4>
+                            <p class="text-xs text-pink-300/70">Industry Standards</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="bg-darkbg p-4 rounded-xl border border-pink-500/15 flex items-start justify-between">
+                            <div>
+                                <h5 class="text-sm font-semibold text-white">CompTIA A+ (In Progress / Completed)</h5>
+                                <p class="text-xs text-pink-300/60 mt-0.5">Hardware, Networking & OS Troubleshooting</p>
+                            </div>
+                            <span class="bg-accent/10 border border-accent/20 text-accent text-[10px] font-mono px-2 py-0.5 rounded-md">IT Support</span>
+                        </div>
+
+                        <div class="bg-darkbg p-4 rounded-xl border border-pink-500/15 flex items-start justify-between">
+                            <div>
+                                <h5 class="text-sm font-semibold text-white">Per Scholas IT Training Certificate</h5>
+                                <p class="text-xs text-pink-300/60 mt-0.5">Comprehensive IT & Soft Skills Training</p>
+                            </div>
+                            <span class="bg-accent/10 border border-accent/20 text-accent text-[10px] font-mono px-2 py-0.5 rounded-md">Per Scholas</span>
+                        </div>
+
+                        <div class="bg-darkbg p-4 rounded-xl border border-pink-500/15 flex items-start justify-between">
+                            <div>
+                                <h5 class="text-sm font-semibold text-white">Google Project Management (Optional)</h5>
+                                <p class="text-xs text-pink-300/60 mt-0.5">Foundations of Project Planning & Execution</p>
+                            </div>
+                            <span class="bg-purple-500/10 border border-purple-500/20 text-purple-300 text-[10px] font-mono px-2 py-0.5 rounded-md">PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-darkbg border-t border-pink-900/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-accent font-bold mb-3">Practical Application</h2>
+                <h3 class="text-2xl sm:text-3xl font-bold text-white">Featured Capstone Project</h3>
+                <p class="text-pink-200/70 text-sm mt-2">Showcasing end-to-end technical support and structured project execution.</p>
+            </div>
+            
+            <div class="max-w-3xl mx-auto bg-cardbg p-8 rounded-2xl border border-pink-500/20 shadow-xl">
+                <div class="flex items-center justify-between mb-6">
+                    <span class="bg-accent/10 text-pink-300 border border-pink-500/30 px-3 py-1 rounded-full text-xs font-mono">
+                        Per Scholas Capstone
+                    </span>
+                    <span class="text-xs text-pink-300/60 font-mono">Completed</span>
+                </div>
+                <h4 class="text-2xl font-bold text-white mb-3">IT Infrastructure & Project Plan Implementation</h4>
+                <p class="text-pink-200/80 text-sm mb-6 leading-relaxed">
+                    Designed a comprehensive project blueprint for an enterprise IT deployment. Created work breakdown structures, risk management logs, and communication channels. Executed technical system configurations while delivering progress updates formatted for leadership review.
+                </p>
+                <div class="flex flex-wrap gap-2 mb-8">
+                    <span class="bg-darkbg border border-pink-500/20 px-3 py-1 rounded-lg text-xs font-mono text-pink-200">Project Planning</span>
+                    <span class="bg-darkbg border border-pink-500/20 px-3 py-1 rounded-lg text-xs font-mono text-pink-200">IT Systems Diagnostics</span>
+                    <span class="bg-darkbg border border-pink-500/20 px-3 py-1 rounded-lg text-xs font-mono text-pink-200">Stakeholder Communication</span>
+                </div>
+                <div class="border-t border-pink-900/40 pt-6 flex justify-between items-center">
+                    <span class="text-xs text-pink-300/70">Interested in project documentation?</span>
+                    <a href="#contact" class="bg-gradient-to-r from-pink-400 to-purple-400 hover:from-pink-500 hover:to-purple-500 text-slate-950 px-4 py-2 rounded-xl font-bold text-xs transition shadow-md">Request Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-20 bg-[#140d24]/50 border-t border-pink-900/30">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-xs uppercase tracking-widest text-accent font-bold mb-3">Contact</h2>
+                <h3 class="text-2xl sm:text-3xl font-bold text-white">Get In Touch</h3>
+                <p class="text-pink-200/70 text-sm mt-2">Have an IT or project support opportunity? Send a message below.</p>
+            </div>
+
+            <div class="bg-cardbg p-8 rounded-2xl border border-pink-500/20 shadow-xl">
+                <form action="#" method="POST" class="space-y-6">
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <div>
+                            <label for="name" class="block text-xs font-semibold text-pink-200 uppercase tracking-wider mb-2">Your Name</label>
+                            <input type="text" id="name" name="name" required class="w-full bg-darkbg border border-pink-500/20 rounded-xl px-4 py-3 text-pink-100 text-sm focus:outline-none focus:border-accent transition">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-xs font-semibold text-pink-200 uppercase tracking-wider mb-2">Your Email</label>
+                            <input type="email" id="email" name="email" required class="w-full bg-darkbg border border-pink-500/20 rounded-xl px-4 py-3 text-pink-100 text-sm focus:outline-none focus:border-accent transition">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="subject" class="block text-xs font-semibold text-pink-200 uppercase tracking-wider mb-2">Subject</label>
+                        <input type="text" id="subject" name="subject" required class="w-full bg-darkbg border border-pink-500/20 rounded-xl px-4 py-3 text-pink-100 text-sm focus:outline-none focus:border-accent transition">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-xs font-semibold text-pink-200 uppercase tracking-wider mb-2">Message</label>
+                        <textarea id="message" name="message" rows="5" required class="w-full bg-darkbg border border-pink-500/20 rounded-xl px-4 py-3 text-pink-100 text-sm focus:outline-none focus:border-accent transition resize-none"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-gradient-to-r from-pink-400 to-purple-400 hover:from-pink-500 hover:to-purple-500 text-slate-950 font-bold py-3.5 rounded-xl shadow-lg shadow-pink-500/15 transition text-sm">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-darkbg text-pink-300/50 py-10 border-t border-pink-900/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center">
+            <div class="flex items-center space-x-3 mb-4 sm:mb-0">
+                <div class="w-7 h-7 bg-accent/10 border border-accent/20 rounded-lg flex items-center justify-center text-accent font-bold text-xs">IT</div>
+                <span class="text-xs font-bold text-pink-200">Per Scholas IT Graduate</span>
+            </div>
+            <p class="text-xs">&copy; 2026 Professional Portfolio. All rights reserved.</p>
+            <div class="flex space-x-6 mt-4 sm:mt-0 text-xs font-medium">
+                <a href="https://github.com" target="_blank" class="hover:text-accent transition">GitHub</a>
+                <a href="https://linkedin.com" target="_blank" class="hover:text-accent transition">LinkedIn</a>
+                <a href="mailto:email@example.com" class="hover:text-accent transition">Email</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
