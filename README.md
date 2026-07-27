@@ -1,1 +1,256 @@
-# my-web-page
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio - Aijahnae Johnson</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        darkbg: '#120c1f',
+                        cardbg: '#1d1430',
+                        accent: '#f472b6',
+                        accenthover: '#ec4899',
+                        softpurple: '#c084fc',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-darkbg text-pink-50 font-sans antialiased selection:bg-accent selection:text-white">
+
+    <!-- Header / Navigation -->
+    <header class="bg-darkbg/80 backdrop-blur-md border-b border-pink-950/60 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-9 h-9 bg-accent/15 border border-accent/40 rounded-xl flex items-center justify-center text-accent font-bold text-lg shadow-sm shadow-pink-500/10">IT</div>
+                <span class="text-lg font-bold tracking-tight text-pink-100">Tech & Professional Portfolio</span>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#about" class="text-pink-300/70 hover:text-accent transition">About</a>
+                <a href="#skills" class="text-pink-300/70 hover:text-accent transition">Per Scholas Skills</a>
+                <a href="#projects" class="text-pink-300/70 hover:text-accent transition">Projects</a>
+                <a href="#video" class="text-pink-300/70 hover:text-accent transition">Intro Video</a>
+                <a href="#contact" class="text-pink-300/70 hover:text-accent transition">Contact</a>
+            </nav>
+            <div>
+                <a href="#contact" class="bg-gradient-to-r from-pink-400 to-purple-400 hover:from-pink-500 hover:to-purple-500 text-darkbg px-4 py-2 rounded-xl font-bold text-sm transition shadow-lg shadow-pink-500/20">Get in Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner / Hero Section -->
+    <section class="relative py-24 lg:py-36 overflow-hidden bg-gradient-to-b from-[#1a102f] to-darkbg">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(244,114,182,0.15),rgba(255,255,255,0))]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <div class="inline-flex items-center space-x-2 bg-cardbg border border-pink-500/30 px-4 py-1.5 rounded-full text-xs font-medium text-pink-300 mb-6 shadow-sm">
+                <span class="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
+                <span>Per Scholas Student</span>
+            </div>
+            <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-6">
+                Bridging Technical Excellence & <span class="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400">Strategic Leadership</span>
+            </h1>
+            <p class="max-w-2xl mx-auto text-lg sm:text-xl text-pink-200/70 mb-10 leading-relaxed">
+                Trained through rigorous Per Scholas programs, combining hands-on IT systems knowledge with expert project planning and professional communication.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#projects" class="bg-gradient-to-r from-pink-400 to-purple-400 hover:from-pink-500 hover:to-purple-500 text-darkbg font-bold px-8 py-3.5 rounded-2xl shadow-lg shadow-pink-500/20 transition">View My Projects</a>
+                <a href="#video" class="bg-cardbg hover:bg-[#25193d] text-pink-200 font-semibold px-8 py-3.5 rounded-2xl border border-pink-500/20 transition">Watch Intro Video</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-[#160d26]/40 border-y border-pink-950/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-xs uppercase tracking-widest text-accent font-bold mb-3">Professional Background</h2>
+                    <h3 class="text-3xl font-bold text-white mb-6">Technical mastery paired with professional polish.</h3>
+                    <p class="text-pink-200/70 mb-4 leading-relaxed">
+                        My journey through Per Scholas has equipped me with more than just technical troubleshooting—it has built a comprehensive foundation in project execution, structured planning, and stakeholder communication.
+                    </p>
+                    <p class="text-pink-200/70 mb-8 leading-relaxed">
+                        I excel at translating complex IT concepts into actionable plans, keeping cross-functional teams aligned, and delivering results with style and precision.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 border-t border-pink-950 pt-6">
+                        <div>
+                            <div class="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400 mb-1">Per Scholas</div>
+                            <div class="text-sm text-pink-300/60">Professional Training Graduate</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400 mb-1">Full-Stack</div>
+                            <div class="text-sm text-pink-300/60">Technical & Soft Skills</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-cardbg p-8 rounded-3xl border border-pink-500/20 shadow-2xl shadow-pink-950/20 relative">
+                    <div class="absolute -top-3 right-6 bg-accent/15 text-pink-300 border border-pink-500/30 px-3 py-1 rounded-full text-xs font-mono">competencies.config.json</div>
+                    <pre class="text-xs sm:text-sm font-mono text-pink-100/90 overflow-x-auto leading-relaxed pt-2"><code>{
+ Per Scholas Student
+
+    IT Systems & Support
+    Project Management
+    Project Planning
+    Professional Communications
+  
+  "status": "Ready for Impact ✨"
+}</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Grid / Skills Learned at Per Scholas -->
+    <section id="skills" class="py-24 bg-darkbg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-accent font-bold mb-3">Per Scholas Curriculum</h2>
+                <h3 class="text-3xl font-bold text-white">Skills Learned So Far</h3>
+                <p class="text-pink-200/70 mt-2">Comprehensive technical and professional competencies acquired during my training.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Skill 1 -->
+                <div class="bg-cardbg p-8 rounded-3xl border border-pink-500/20 hover:border-pink-500/40 transition group shadow-lg">
+                    <div class="w-12 h-12 bg-accent/15 text-accent rounded-2xl flex items-center justify-center font-bold text-xl mb-6 border border-accent/30 group-hover:bg-accent group-hover:text-darkbg transition">💻</div>
+                    <h4 class="text-xl font-semibold text-white mb-2">IT Systems & Support</h4>
+                    <p class="text-pink-200/70 text-sm leading-relaxed">Hardware diagnostics, OS configuration, peripherals management, and user desktop environment support.</p>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="bg-cardbg p-8 rounded-3xl border border-pink-500/20 hover:border-pink-500/40 transition group shadow-lg">
+                    <div class="w-12 h-12 bg-accent/15 text-accent rounded-2xl flex items-center justify-center font-bold text-xl mb-6 border border-accent/30 group-hover:bg-accent group-hover:text-darkbg transition">📊</div>
+                    <h4 class="text-xl font-semibold text-white mb-2">Project Management</h4>
+                    <p class="text-pink-200/70 text-sm leading-relaxed">Applying methodologies to manage lifecycles, track milestones, mitigate risks, and ensure goals align with business requirements.</p>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="bg-cardbg p-8 rounded-3xl border border-pink-500/20 hover:border-pink-500/40 transition group shadow-lg">
+                    <div class="w-12 h-12 bg-accent/15 text-accent rounded-2xl flex items-center justify-center font-bold text-xl mb-6 border border-accent/30 group-hover:bg-accent group-hover:text-darkbg transition">📋</div>
+                    <h4 class="text-xl font-semibold text-white mb-2">Project Plans</h4>
+                    <p class="text-pink-200/70 text-sm leading-relaxed">Designing structured timelines, resource allocation matrices, task dependencies, and comprehensive execution blueprints.</p>
+                </div>
+
+                <!-- Skill 4 -->
+                <div class="bg-cardbg p-8 rounded-3xl border border-pink-500/20 hover:border-pink-500/40 transition group shadow-lg">
+                    <div class="w-12 h-12 bg-accent/15 text-accent rounded-2xl flex items-center justify-center font-bold text-xl mb-6 border border-accent/30 group-hover:bg-accent group-hover:text-darkbg transition">💬</div>
+                    <h4 class="text-xl font-semibold text-white mb-2">Professional Communications</h4>
+                    <p class="text-pink-200/70 text-sm leading-relaxed">Mastering executive presentations, technical documentation, stakeholder negotiation, and cross-team collaboration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-24 bg-[#160d26]/40 border-t border-pink-950/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-accent font-bold mb-3">Practical Application</h2>
+                <h3 class="text-3xl font-bold text-white">Featured Project & Plan</h3>
+                <p class="text-pink-200/70 mt-2">A comprehensive capstone showcasing technical execution and strategic planning.</p>
+            </div>
+            
+            <div class="max-w-3xl mx-auto bg-cardbg p-8 sm:p-10 rounded-3xl border border-pink-500/20 shadow-2xl shadow-pink-950/30">
+                <div class="flex items-center justify-between mb-6">
+                    <div class="inline-flex items-center space-x-2 bg-accent/15 text-pink-300 border border-pink-500/30 px-3.5 py-1 rounded-full text-xs font-mono">
+                        Per Scholas Tools We Use Today Project
+                    </div>
+                    <span class="text-xs text-pink-300/60 font-mono">Status: Completed</span>
+                </div>
+                <h4 class="text-2xl font-bold text-white mb-4">IT Infrastructure Deployment & Project Execution Plan</h4>
+                <p class="text-pink-200/70 mb-6 leading-relaxed">
+                    Spearheaded a comprehensive simulated IT deployment project. Developed an end-to-end project plan defining milestones, risk mitigation matrices, and resource allocations. Executed technical system configurations while leveraging professional communication strategies to report progress to simulated executive stakeholders.
+                </p>
+                <div class="flex flex-wrap gap-2 mb-8">
+                    <span class="bg-darkbg border border-pink-500/20 px-3 py-1 rounded-xl text-xs font-mono text-pink-200">Project Planning</span>
+                    <span class="bg-darkbg border border-pink-500/20 px-3 py-1 rounded-xl text-xs font-mono text-pink-200">Technical Support</span>
+                    <span class="bg-darkbg border border-pink-500/20 px-3 py-1 rounded-xl text-xs font-mono text-pink-200">Stakeholder Communication</span>
+                </div>
+                <div class="border-t border-pink-950 pt-6 flex justify-between items-center">
+                    <span class="text-sm text-pink-300/70">Want to see project artifacts?</span>
+                    <a href="#contact" class="bg-gradient-to-r from-pink-400 to-purple-400 hover:from-pink-500 hover:to-purple-500 text-darkbg px-4 py-2 rounded-xl font-bold text-xs transition shadow-md">Request Documentation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Introduction Section -->
+    <section id="video" class="py-24 bg-darkbg border-t border-pink-950/40">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="mb-12">
+                <h2 class="text-xs uppercase tracking-widest text-accent font-bold mb-3">Get To Know Me</h2>
+                <h3 class="text-3xl font-bold text-white">Project Plan</h3>
+                <p class="text-pink-200/70 mt-2">A brief walkthrough of my passion for IT and the tools with us today.</p>
+            </div>
+
+            <!-- Video Container -->
+            <div class="bg-cardbg p-4 sm:p-6 rounded-3xl border border-pink-500/20 shadow-2xl shadow-pink-950/30">
+                <div class="relative w-full overflow-hidden rounded-2xl aspect-video bg-darkbg border border-pink-500/10">
+                    <!-- Replace the src URL below with your YouTube, Vimeo, or direct video link (.mp4) -->
+                    <iframe class="absolute top-0 left-0 w-full h-full" src="https://youtube.com/shorts/wta2Rd3k3uo?si=w1xIbx18DlQHVA9a" title="Tools We Use in IT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p class="text-xs text-pink-300/60 mt-4 font-mono">Tip: You can easily swap the YouTube embed link in the code with your own video URL!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-24 bg-[#160d26]/40 border-t border-pink-950/40">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-xs uppercase tracking-widest text-accent font-bold mb-3">Let's Connect</h2>
+                <h3 class="text-3xl font-bold text-white">Get In Touch</h3>
+                <p class="text-pink-200/70 mt-2">Have an IT role, project management opportunity, or entry-level position in mind? Drop me a message below.</p>
+            </div>
+
+            <div class="bg-cardbg p-8 sm:p-10 rounded-3xl border border-pink-500/20 shadow-2xl shadow-pink-950/20">
+                <form action="#" method="POST" class="space-y-6">
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-pink-200 mb-2">Your Name</label>
+                            <input type="text" id="name" name="name" required class="w-full bg-darkbg border border-pink-500/20 rounded-2xl px-4 py-3 text-pink-100 focus:outline-none focus:border-accent transition">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-pink-200 mb-2">Your Email</label>
+                            <input type="email" id="email" name="email" required class="w-full bg-darkbg border border-pink-500/20 rounded-2xl px-4 py-3 text-pink-100 focus:outline-none focus:border-accent transition">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="subject" class="block text-sm font-medium text-pink-200 mb-2">Subject</label>
+                        <input type="text" id="subject" name="subject" required class="w-full bg-darkbg border border-pink-500/20 rounded-2xl px-4 py-3 text-pink-100 focus:outline-none focus:border-accent transition">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-pink-200 mb-2">Message</label>
+                        <textarea id="message" name="message" rows="5" required class="w-full bg-darkbg border border-pink-500/20 rounded-2xl px-4 py-3 text-pink-100 focus:outline-none focus:border-accent transition resize-none"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-gradient-to-r from-pink-400 to-purple-400 hover:from-pink-500 hover:to-purple-500 text-darkbg font-bold py-3.5 rounded-2xl shadow-lg shadow-pink-500/20 transition">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-darkbg text-pink-300/50 py-12 border-t border-pink-950/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center">
+            <div class="flex items-center space-x-3 mb-4 sm:mb-0">
+                <div class="w-7 h-7 bg-accent/15 border border-accent/30 rounded-lg flex items-center justify-center text-accent font-bold text-sm">IT</div>
+                <span class="text-sm font-bold text-pink-200">Per Scholas Graduate</span>
+            </div>
+            <p class="text-xs">&copy; 2026. All rights reserved.</p>
+            <div class="flex space-x-6 mt-4 sm:mt-0 text-xs font-medium">
+                <a href="https://github.com" target="_blank" class="hover:text-accent transition">GitHub</a>
+                <a href="https://linkedin.com" target="_blank" class="hover:text-accent transition">LinkedIn</a>
+                <a href="mailto:email@example.com" class="hover:text-accent transition">Email</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
